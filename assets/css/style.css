@@ -1,0 +1,30 @@
+body {
+    font-size:16px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.header {
+    width:100%;
+    background-image: url("../images/main-bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    background-image:url("../images/menu-bg.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.h-100 {
+    margin-top:100px;
+    height:100vh!important;
+}
+
+.text-blue {
+    color:#1D3B5C
+}
+
+.bg-light-blue {
+    background-color:#DDF2FF;
+}
