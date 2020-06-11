@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size:16px;
     font-family: 'Cairo', sans-serif;
@@ -16,15 +20,50 @@ body {
     background-repeat:no-repeat;
     background-position:center;
 }
-.h-100 {
-    margin-top:100px;
-    height:100vh!important;
+
+#sideNav {
+    width:10%;
 }
 
+.card {
+    width:100%;
+}
+.h-100 {
+    height:100vh!important;
+}
+.mt-100 {
+    margin-top:100px;
+}
 .text-blue {
     color:#1D3B5C
 }
 
+.text-light-blue {
+    color:#DDF2FF;
+}
+
 .bg-light-blue {
     background-color:#DDF2FF;
+}
+
+.bg-pale-blue {
+    background-color:#506A8E;
+}
+
+.btn-light-blue {
+    background-color:#DDF2FF;
+    color:#506A8E;
+    -webkit-transition:.25s;
+    -moz-transition:.25s;
+    -o-transition:.25s;
+    transition:.25s;
+}
+
+.btn-light-blue:hover {
+    background-color:rgb(199, 216, 226);
+}
+
+.fa-user, .fa-envelope, .fa-phone, .fa-tag, .fa-pencil-alt {
+    padding-top:.75rem;
+    font-size:1.5rem;
 }
