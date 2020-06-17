@@ -15,7 +15,7 @@ body {
 }
 
 .menu{
-    background-image:url("../images/menu-bg.jpg");
+    background-image:url("../images/menu.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
@@ -35,7 +35,7 @@ body {
     margin-top:100px;
 }
 .text-blue {
-    color:#1D3B5C
+    color:#1D3B5C;
 }
 
 .text-light-blue {
